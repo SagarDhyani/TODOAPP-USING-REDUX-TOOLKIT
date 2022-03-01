@@ -1,0 +1,474 @@
+
+@media (min-width: 1024px){
+
+
+.groceryContainer {
+  width: 600px;
+  margin: auto;
+  
+  align-items: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.heading {
+  text-align: center;
+  width: 600px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(68, 66, 66);
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.inputBox {
+  width: 350px;
+  height: 25px;
+  box-shadow: 0px 2px 5px rgb(182, 175, 175);
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.para {
+  font-size: 15px;
+  color: green;
+  font-weight: 800;
+  
+ 
+}
+
+.btn {
+  width: 100px;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00d775, #00bd68);
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  height: 36px;
+  
+  outline: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+
+  z-index: 9;
+  border: 0;
+}
+
+.btn:hover {
+  background: #00bd68;
+}
+
+.myList {
+  width: 500px;
+  margin: auto;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.bttn2 {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-bottom: 40px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1023px){
+
+  .groceryContainer {
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    box-shadow: 5px 5px 10px gray;
+  }
+  
+  .heading {
+    text-align: center;
+    width: 600px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+  
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(68, 66, 66);
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  
+  .inputBox {
+    width: 350px;
+    height: 25px;
+    box-shadow: 0px 2px 5px rgb(182, 175, 175);
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .para {
+    font-size: 15px;
+    color: green;
+    font-weight: 800;
+    
+   
+  }
+  
+  .btn {
+    width: 100px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00d775, #00bd68);
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+    height: 36px;
+    
+    outline: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+  
+    z-index: 9;
+    border: 0;
+  }
+  
+  .btn:hover {
+    background: #00bd68;
+  }
+  
+  .myList {
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .bttn2 {
+    background: #5e5df0;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+      NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+      EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+      "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-bottom: 40px;
+  }
+
+
+}
+
+
+
+@media (max-width: 768px){
+
+  .groceryContainer {
+    width: 350px;
+    
+    margin: auto;
+    padding: 10px;
+  
+    box-shadow: 5px 5px 10px gray;
+  }
+  
+  .heading {
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+  
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(68, 66, 66);
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  
+  .inputBox {
+    width: 200px;
+    height: 25px;
+    box-shadow: 0px 2px 5px rgb(182, 175, 175);
+    border: none;
+    padding: 5px;
+    outline: none;
+    
+  }
+  
+  .para {
+    font-size: 12px;
+    color: green;
+    font-weight: 800;
+    
+   
+  }
+  
+  .btn {
+    width: 75px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00d775, #00bd68);
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+    height: 36px;
+    
+    outline: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+  
+    z-index: 9;
+    border: 0;
+  }
+  
+  .btn:hover {
+    background: #00bd68;
+  }
+  
+  .myList {
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .bttn2 {
+    background: #5e5df0;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+      NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+      EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+      "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-bottom: 20px;
+    width: 100px;
+  }
+
+  ul{
+    align-items: center;
+    
+    
+    padding: 10px;
+    margin-left: -150px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+   
+    
+  }
+
+}
+
+
+@media only screen and (max-width: 468px){
+  .groceryContainer {
+    width: 350px;
+    
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    margin-left: 25%;
+  
+    box-shadow: 5px 5px 10px gray;
+  }
+  
+  .heading {
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+  
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(68, 66, 66);
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  
+  .inputBox {
+    width: 200px;
+    height: 25px;
+    box-shadow: 0px 2px 5px rgb(182, 175, 175);
+    border: none;
+    padding: 5px;
+    outline: none;
+    
+  }
+  
+  .para {
+    font-size: 12px;
+    color: green;
+    font-weight: 800;
+    
+   
+  }
+  
+  .btn {
+    width: 75px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00d775, #00bd68);
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+    height: 36px;
+    
+    outline: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+  
+    z-index: 9;
+    border: 0;
+  }
+  
+  .btn:hover {
+    background: #00bd68;
+  }
+  
+  .myList {
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .bttn2 {
+    background: #5e5df0;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+      NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+      EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+      "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-bottom: 20px;
+    width: 100px;
+  }
+
+  ul{
+    align-items: center;
+    
+    
+    padding: 10px;
+    margin-left: -150px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+   
+    
+  }
+
+
+}
+
