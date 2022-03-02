@@ -97,6 +97,9 @@ export const AddTodoForm = () => {
                   className="bttn2"
                   onClick={() => {
                     dispatch(deleteItems(todo.id));
+                    
+                    setEdit(false);
+                    inputRef.current.placeholder = "Add Items";
                   }}
                 >
                   Delete Item
@@ -105,7 +108,7 @@ export const AddTodoForm = () => {
                   className="bttn2"
                   onClick={() => {
                     setEdit(true);
-                    inputRef.current.value = "";
+                    inputRef.current.placeholder = "update item";
 
                     setId(todo.id);
 
