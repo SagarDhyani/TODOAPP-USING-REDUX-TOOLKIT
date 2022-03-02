@@ -41,7 +41,6 @@ export const AddTodoForm = () => {
           <input
             className="inputBox"
             ref={inputRef}
-            
             type="text"
             placeholder="Add Items"
             onChange={(e) => setValue(e.target.value)}
@@ -54,17 +53,23 @@ export const AddTodoForm = () => {
                 setValue(e.target.value);
 
                 todos.map((todo) => {
-                  dispatch(
-                    updateItems({
-                      id: id,
-                      title: value,
-                    })
-                  );
+                  if (value) {
+                    dispatch(
+                      updateItems({
+                        id: id,
+                        title: value,
+                      })
+                    );
+
+                    inputRef.current.value = "";
+
+                    setEdit(false);
+                    inputRef.current.placeholder = "Add items";
+                  } else {
+                    inputRef.current.placeholder = "Please write something";
+                    // setEdit(false);
+                  }
                 });
-
-                inputRef.current.value = "";
-
-                setEdit(false);
               }}
               type="submit"
             >
@@ -83,7 +88,9 @@ export const AddTodoForm = () => {
           <ul>
             {todos.map((todo) => (
               <div key={todo.id}>
-                <p className="para">{"\u2192"}{" "}{todo.title}</p>
+                <p className="para">
+                  {"\u2192"} {todo.title}
+                </p>
                 <br></br>
 
                 <button

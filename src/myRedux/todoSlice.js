@@ -16,20 +16,14 @@ const todoSlice = createSlice({
     },
 
     deleteItems: (state, action) => {
-      console.log("action:", action);
       return state.filter((todo) => todo.id !== action.payload);
     },
 
     updateItems: (state, action) => {
-      console.log("actionid:", action.payload);
-
       state.map((todo) => {
-        console.log("todoid:", todo.id);
-
         if (todo.id === action.payload.id) {
           todo.title = action.payload.title;
         } else {
-          // todo.title = todo.title
           return null;
         }
       });
